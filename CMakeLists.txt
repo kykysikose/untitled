@@ -4,6 +4,10 @@ project(search_engine LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+
 include(FetchContent)
 
 # -------- nlohmann/json --------
@@ -46,6 +50,15 @@ add_executable(search_engine_tests
   tests/test_inverted_index.cpp
   tests/test_search_server.cpp
 )
+
+add_subdirectory(src)
+add_subdirectory(tests)
+
+configure_file(config.json ${CMAKE_BINARY_DIR}/config.json COPYONLY)
+configure_file(requests.json ${CMAKE_BINARY_DIR}/requests.json COPYONLY)
+configure_file(answers.json ${CMAKE_BINARY_DIR}/answers.json COPYONLY)
+
+
 target_link_libraries(search_engine_tests PRIVATE search_engine_lib GTest::gtest_main)
 
 include(GoogleTest)
