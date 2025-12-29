@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+G:/qt c++/untitled/build/_deps/googletest-src/googlemock/CMakeLists.txt
+G:/qt c++/untitled/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+G:/qt c++/untitled/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

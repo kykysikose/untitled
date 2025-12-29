@@ -1,0 +1,10 @@
+^G:\QT C++\UNTITLED\BUILD\_DEPS\NLOHMANN_JSON-SUBBUILD\CMAKEFILES\AB0AF6D94471FCD943F430B78955608D\GENERATE.STAMP.RULE
+setlocal
+D:\ToolsVscode\CMake\bin\cmake.exe "-SG:/qt c++/untitled/build/_deps/nlohmann_json-subbuild" "-BG:/qt c++/untitled/build/_deps/nlohmann_json-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "G:/qt c++/untitled/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,43 @@
+{
+  "tests": 5,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TestCaseInvertedIndex",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "TestBasic",
+          "file": "G:\\qt c++\\untitled\\tests\\test_inverted_index.cpp",
+          "line": 22
+        },
+        {
+          "name": "TestBasic2",
+          "file": "G:\\qt c++\\untitled\\tests\\test_inverted_index.cpp",
+          "line": 35
+        },
+        {
+          "name": "TestInvertedIndexMissingWord",
+          "file": "G:\\qt c++\\untitled\\tests\\test_inverted_index.cpp",
+          "line": 51
+        }
+      ]
+    },
+    {
+      "name": "TestCaseSearchServer",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "TestSimple",
+          "file": "G:\\qt c++\\untitled\\tests\\test_search_server.cpp",
+          "line": 10
+        },
+        {
+          "name": "TestTop5",
+          "file": "G:\\qt c++\\untitled\\tests\\test_search_server.cpp",
+          "line": 36
+        }
+      ]
+    }
+  ]
+}

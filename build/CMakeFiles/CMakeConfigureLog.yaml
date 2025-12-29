@@ -1,0 +1,2337 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/"
+    found: "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:35:21.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> G:\\qt c++\\untitled\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:02.02
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        G:/qt c++/untitled/build/CMakeFiles/4.2.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/mingw64/bin/lld-link.com"
+      - "C:/mingw64/bin/lld-link.exe"
+      - "C:/mingw64/bin/lld-link"
+      - "C:/Program Files/Vim/vim91/lld-link.com"
+      - "C:/Program Files/Vim/vim91/lld-link.exe"
+      - "C:/Program Files/Vim/vim91/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/lld-link"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "G:/PyCharm 2023.1.3/bin/lld-link.com"
+      - "G:/PyCharm 2023.1.3/bin/lld-link.exe"
+      - "G:/PyCharm 2023.1.3/bin/lld-link"
+      - "C:/Users/user/.dotnet/tools/lld-link.com"
+      - "C:/Users/user/.dotnet/tools/lld-link.exe"
+      - "C:/Users/user/.dotnet/tools/lld-link"
+      - "D:/Visual Studio/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Visual Studio/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Visual Studio/Microsoft VS Code/bin/lld-link"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/lld-link.com"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/lld-link.exe"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/lld-link"
+      - "D:/ToolsVscode/CMake/bin/lld-link.com"
+      - "D:/ToolsVscode/CMake/bin/lld-link.exe"
+      - "D:/ToolsVscode/CMake/bin/lld-link"
+      - "D:/CLion 2025.2.4/bin/lld-link.com"
+      - "D:/CLion 2025.2.4/bin/lld-link.exe"
+      - "D:/CLion 2025.2.4/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.com"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/mingw64/bin/mt.com"
+      - "C:/mingw64/bin/mt.exe"
+      - "C:/mingw64/bin/mt"
+      - "C:/Program Files/Vim/vim91/mt.com"
+      - "C:/Program Files/Vim/vim91/mt.exe"
+      - "C:/Program Files/Vim/vim91/mt"
+      - "D:/Git/cmd/mt.com"
+      - "D:/Git/cmd/mt.exe"
+      - "D:/Git/cmd/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "D:/CMake/bin/mt.com"
+      - "D:/CMake/bin/mt.exe"
+      - "D:/CMake/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/mt.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/mt.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/mt"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/mt.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/mt.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/mt"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/mt"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/mt"
+      - "G:/PyCharm 2023.1.3/bin/mt.com"
+      - "G:/PyCharm 2023.1.3/bin/mt.exe"
+      - "G:/PyCharm 2023.1.3/bin/mt"
+      - "C:/Users/user/.dotnet/tools/mt.com"
+      - "C:/Users/user/.dotnet/tools/mt.exe"
+      - "C:/Users/user/.dotnet/tools/mt"
+      - "D:/Visual Studio/Microsoft VS Code/bin/mt.com"
+      - "D:/Visual Studio/Microsoft VS Code/bin/mt.exe"
+      - "D:/Visual Studio/Microsoft VS Code/bin/mt"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/mt.com"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/mt.exe"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/mt"
+      - "D:/ToolsVscode/CMake/bin/mt.com"
+      - "D:/ToolsVscode/CMake/bin/mt.exe"
+      - "D:/ToolsVscode/CMake/bin/mt"
+      - "D:/CLion 2025.2.4/bin/mt.com"
+      - "D:/CLion 2025.2.4/bin/mt.exe"
+      - "D:/CLion 2025.2.4/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/ToolsVscode/CMake/sbin/"
+      - "D:/ToolsVscode/CMake/"
+      - "C:/Program Files (x86)/search_engine/bin/"
+      - "C:/Program Files (x86)/search_engine/sbin/"
+      - "C:/Program Files (x86)/search_engine/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.com"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/mingw64/bin/rc.com"
+      - "C:/mingw64/bin/rc.exe"
+      - "C:/mingw64/bin/rc"
+      - "C:/Program Files/Vim/vim91/rc.com"
+      - "C:/Program Files/Vim/vim91/rc.exe"
+      - "C:/Program Files/Vim/vim91/rc"
+      - "D:/Git/cmd/rc.com"
+      - "D:/Git/cmd/rc.exe"
+      - "D:/Git/cmd/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "D:/CMake/bin/rc.com"
+      - "D:/CMake/bin/rc.exe"
+      - "D:/CMake/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/rc.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/rc.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/rc"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/rc.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/rc.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/rc"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/rc"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/rc"
+      - "G:/PyCharm 2023.1.3/bin/rc.com"
+      - "G:/PyCharm 2023.1.3/bin/rc.exe"
+      - "G:/PyCharm 2023.1.3/bin/rc"
+      - "C:/Users/user/.dotnet/tools/rc.com"
+      - "C:/Users/user/.dotnet/tools/rc.exe"
+      - "C:/Users/user/.dotnet/tools/rc"
+      - "D:/Visual Studio/Microsoft VS Code/bin/rc.com"
+      - "D:/Visual Studio/Microsoft VS Code/bin/rc.exe"
+      - "D:/Visual Studio/Microsoft VS Code/bin/rc"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/rc.com"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/rc.exe"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/rc"
+      - "D:/ToolsVscode/CMake/bin/rc.com"
+      - "D:/ToolsVscode/CMake/bin/rc.exe"
+      - "D:/ToolsVscode/CMake/bin/rc"
+      - "D:/CLion 2025.2.4/bin/rc.com"
+      - "D:/CLion 2025.2.4/bin/rc.exe"
+      - "D:/CLion 2025.2.4/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/ToolsVscode/CMake/bin/rc.com"
+      - "D:/ToolsVscode/CMake/bin/rc.exe"
+      - "D:/ToolsVscode/CMake/bin/rc"
+      - "D:/ToolsVscode/CMake/sbin/rc.com"
+      - "D:/ToolsVscode/CMake/sbin/rc.exe"
+      - "D:/ToolsVscode/CMake/sbin/rc"
+      - "D:/ToolsVscode/CMake/rc.com"
+      - "D:/ToolsVscode/CMake/rc.exe"
+      - "D:/ToolsVscode/CMake/rc"
+      - "C:/Program Files (x86)/search_engine/bin/rc.com"
+      - "C:/Program Files (x86)/search_engine/bin/rc.exe"
+      - "C:/Program Files (x86)/search_engine/bin/rc"
+      - "C:/Program Files (x86)/search_engine/sbin/rc.com"
+      - "C:/Program Files (x86)/search_engine/sbin/rc.exe"
+      - "C:/Program Files (x86)/search_engine/sbin/rc"
+      - "C:/Program Files (x86)/search_engine/rc.com"
+      - "C:/Program Files (x86)/search_engine/rc.exe"
+      - "C:/Program Files (x86)/search_engine/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/search_engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/ToolsVscode/CMake"
+        - "C:/Program Files (x86)/search_engine"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-50dhiv"
+      binary: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-50dhiv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-50dhiv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2673d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:35:25.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\cmTC_2673d.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_2673d.dir\\Debug\\cmTC_2673d.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_2673d.dir\\Debug\\cmTC_2673d.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2673d.dir\\Debug\\cmTC_2673d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_2673d.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\cmTC_2673d.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\ToolsVscode\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35717 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_2673d.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\cmTC_2673d.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\ToolsVscode\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\Debug\\cmTC_2673d.exe" /INCREMENTAL /ILK:"cmTC_2673d.dir\\Debug\\cmTC_2673d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-50dhiv/Debug/cmTC_2673d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-50dhiv/Debug/cmTC_2673d.lib" /MACHINE:X64  /machine:x64 cmTC_2673d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2673d.vcxproj -> G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\Debug\\cmTC_2673d.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_2673d.dir\\Debug\\cmTC_2673d.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2673d.dir\\Debug\\cmTC_2673d.tlog\\cmTC_2673d.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50dhiv\\cmTC_2673d.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35717.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/"
+    found: "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/search_engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/ToolsVscode/CMake"
+        - "C:/Program Files (x86)/search_engine"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:45:19.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> G:\\qt c++\\untitled\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:04.39
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        G:/qt c++/untitled/build/CMakeFiles/4.2.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/Vim/vim91/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/"
+      - "G:/PyCharm 2023.1.3/bin/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "D:/Visual Studio/Microsoft VS Code/bin/"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/CLion 2025.2.4/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/ToolsVscode/CMake/bin/"
+      - "D:/ToolsVscode/CMake/sbin/"
+      - "D:/ToolsVscode/CMake/"
+      - "C:/Program Files (x86)/search_engine/bin/"
+      - "C:/Program Files (x86)/search_engine/sbin/"
+      - "C:/Program Files (x86)/search_engine/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/mingw64/bin/lld-link.com"
+      - "C:/mingw64/bin/lld-link.exe"
+      - "C:/mingw64/bin/lld-link"
+      - "C:/Program Files/Vim/vim91/lld-link.com"
+      - "C:/Program Files/Vim/vim91/lld-link.exe"
+      - "C:/Program Files/Vim/vim91/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin/lld-link"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/user/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "G:/PyCharm 2023.1.3/bin/lld-link.com"
+      - "G:/PyCharm 2023.1.3/bin/lld-link.exe"
+      - "G:/PyCharm 2023.1.3/bin/lld-link"
+      - "C:/Users/user/.dotnet/tools/lld-link.com"
+      - "C:/Users/user/.dotnet/tools/lld-link.exe"
+      - "C:/Users/user/.dotnet/tools/lld-link"
+      - "D:/Visual Studio/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Visual Studio/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Visual Studio/Microsoft VS Code/bin/lld-link"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/lld-link.com"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/lld-link.exe"
+      - "D:/ToolsVscode/scoped_dir14440_374956959/w64devkit/bin/lld-link"
+      - "D:/ToolsVscode/CMake/bin/lld-link.com"
+      - "D:/ToolsVscode/CMake/bin/lld-link.exe"
+      - "D:/ToolsVscode/CMake/bin/lld-link"
+      - "D:/CLion 2025.2.4/bin/lld-link.com"
+      - "D:/CLion 2025.2.4/bin/lld-link.exe"
+      - "D:/CLion 2025.2.4/bin/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "D:/ToolsVscode/CMake/bin/lld-link.com"
+      - "D:/ToolsVscode/CMake/bin/lld-link.exe"
+      - "D:/ToolsVscode/CMake/bin/lld-link"
+      - "D:/ToolsVscode/CMake/sbin/lld-link.com"
+      - "D:/ToolsVscode/CMake/sbin/lld-link.exe"
+      - "D:/ToolsVscode/CMake/sbin/lld-link"
+      - "D:/ToolsVscode/CMake/lld-link.com"
+      - "D:/ToolsVscode/CMake/lld-link.exe"
+      - "D:/ToolsVscode/CMake/lld-link"
+      - "C:/Program Files (x86)/search_engine/bin/lld-link.com"
+      - "C:/Program Files (x86)/search_engine/bin/lld-link.exe"
+      - "C:/Program Files (x86)/search_engine/bin/lld-link"
+      - "C:/Program Files (x86)/search_engine/sbin/lld-link.com"
+      - "C:/Program Files (x86)/search_engine/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/search_engine/sbin/lld-link"
+      - "C:/Program Files (x86)/search_engine/lld-link.com"
+      - "C:/Program Files (x86)/search_engine/lld-link.exe"
+      - "C:/Program Files (x86)/search_engine/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/search_engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/ToolsVscode/CMake"
+        - "C:/Program Files (x86)/search_engine"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-ajqhfe"
+      binary: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-ajqhfe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-ajqhfe'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2b76a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:45:25.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\cmTC_2b76a.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_2b76a.dir\\Debug\\cmTC_2b76a.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_2b76a.dir\\Debug\\cmTC_2b76a.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2b76a.dir\\Debug\\cmTC_2b76a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2b76a.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\cmTC_2b76a.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "D:\\ToolsVscode\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35717 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2b76a.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\cmTC_2b76a.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "D:\\ToolsVscode\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\Debug\\cmTC_2b76a.exe" /INCREMENTAL /ILK:"cmTC_2b76a.dir\\Debug\\cmTC_2b76a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-ajqhfe/Debug/cmTC_2b76a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-ajqhfe/Debug/cmTC_2b76a.lib" /MACHINE:X64  /machine:x64 cmTC_2b76a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_2b76a.vcxproj -> G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\Debug\\cmTC_2b76a.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_2b76a.dir\\Debug\\cmTC_2b76a.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2b76a.dir\\Debug\\cmTC_2b76a.tlog\\cmTC_2b76a.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajqhfe\\cmTC_2b76a.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:04.63
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35717.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2177 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14"
+      - "python3"
+      - "python"
+      - "ipy3.14"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.14"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.14.com"
+      - "/REGISTRY-NOTFOUND/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/python3.14"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.14"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/search_engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/ToolsVscode/CMake"
+        - "C:/Program Files (x86)/search_engine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2177 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.11"
+      - "python3"
+      - "python"
+      - "ipy3.11"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.11.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.11"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.11.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.11.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.11"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.11.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.11"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.11.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.11.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.11"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python3.11.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python3.11"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy3.11.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy3.11.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy3.11"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.11/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.11.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.11"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.11.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.11.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.11"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.11.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.11"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.11.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.11.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.11"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.11.com"
+      - "/REGISTRY-NOTFOUND/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/python3.11"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.11.com"
+      - "/REGISTRY-NOTFOUND/ipy3.11.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.11"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/python"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy64.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy64.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy64"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy32.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy32.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy32"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy.exe.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/bin/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/python"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy64.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy64.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy64"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy32.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy32.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy32"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy.exe.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/Scripts/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/python"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy64.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy64.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy64"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy32.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy32.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy32"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy.exe.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/share/ironpython3.11/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/python"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy64.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy64.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy64"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy32.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy32.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy32"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy.exe.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net45/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/python"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy64.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy64.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy64"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy32.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy32.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy32"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy.exe.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/net40/ipy.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.11.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.11.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.11"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python.com"
+    found: "C:/Users/user/AppData/Local/Programs/Python/Python311/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/search_engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/ToolsVscode/CMake"
+        - "C:/Program Files (x86)/search_engine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2434 (find_program)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.11_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/"
+    searched_directories:
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.11_d.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.11_d.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3.11_d"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3_d.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3_d.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python3_d"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python_d.com"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python_d.exe"
+      - "C:/Users/user/AppData/Local/Programs/Python/Python311/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Vim\\vim91"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "D:\\CMake\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\mingw64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.4\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin"
+        - "G:\\PyCharm 2023.1.3\\bin"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "D:\\Visual Studio\\Microsoft VS Code\\bin"
+        - "D:\\ToolsVscode\\scoped_dir14440_374956959\\w64devkit\\bin"
+        - "D:\\ToolsVscode\\CMake\\bin"
+        - "D:\\CLion 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/search_engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/ToolsVscode/CMake"
+        - "C:/Program Files (x86)/search_engine"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-etwlhl"
+      binary: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-etwlhl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-etwlhl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90005.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:45:37.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_90005.dir\\Debug\\cmTC_90005.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_90005.dir\\Debug\\cmTC_90005.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_90005.dir\\Debug\\cmTC_90005.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_90005.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\src.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35717 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_90005.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\src.c"
+          src.c
+        G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etwlhl\\cmTC_90005.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-hjxerx"
+      binary: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-hjxerx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-hjxerx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89b4a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:45:39.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_89b4a.dir\\Debug\\cmTC_89b4a.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_89b4a.dir\\Debug\\cmTC_89b4a.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_89b4a.dir\\Debug\\cmTC_89b4a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_89b4a.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35717 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_89b4a.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\Debug\\cmTC_89b4a.exe" /INCREMENTAL /ILK:"cmTC_89b4a.dir\\Debug\\cmTC_89b4a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-hjxerx/Debug/cmTC_89b4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-hjxerx/Debug/cmTC_89b4a.lib" /MACHINE:X64  /machine:x64 cmTC_89b4a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hjxerx\\cmTC_89b4a.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-i30ura"
+      binary: "G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-i30ura"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-i30ura'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_78bc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.0.2+995a3dce4 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 28.12.2025 20:45:42.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_78bc0.dir\\Debug\\cmTC_78bc0.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_78bc0.dir\\Debug\\cmTC_78bc0.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_78bc0.dir\\Debug\\cmTC_78bc0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_78bc0.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35717 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_78bc0.dir\\Debug\\\\" /Fd"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\Debug\\cmTC_78bc0.exe" /INCREMENTAL /ILK:"cmTC_78bc0.dir\\Debug\\cmTC_78bc0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-i30ura/Debug/cmTC_78bc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"G:/qt c++/untitled/build/CMakeFiles/CMakeScratch/TryCompile-i30ura/Debug/cmTC_78bc0.lib" /MACHINE:X64  /machine:x64 cmTC_78bc0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [G:\\qt c++\\untitled\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i30ura\\cmTC_78bc0.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.78
+        
+      exitCode: 1
+...

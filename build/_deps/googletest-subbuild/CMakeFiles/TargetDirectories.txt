@@ -1,0 +1,3 @@
+G:/qt c++/untitled/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+G:/qt c++/untitled/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+G:/qt c++/untitled/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/ExternalProject.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+G:/qt c++/untitled/build/_deps/nlohmann_json-src/CMakeLists.txt
+G:/qt c++/untitled/build/_deps/nlohmann_json-src/cmake/config.cmake.in
+G:/qt c++/untitled/build/_deps/nlohmann_json-src/cmake/nlohmann_jsonConfigVersion.cmake.in
+G:/qt c++/untitled/build/_deps/nlohmann_json-src/cmake/pkg-config.pc.in

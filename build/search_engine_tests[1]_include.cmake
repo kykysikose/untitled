@@ -1,0 +1,5 @@
+if(EXISTS "G:/qt c++/untitled/build/search_engine_tests[1]_tests.cmake")
+  include("G:/qt c++/untitled/build/search_engine_tests[1]_tests.cmake")
+else()
+  add_test(search_engine_tests_NOT_BUILT search_engine_tests_NOT_BUILT)
+endif()

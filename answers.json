@@ -1,0 +1,13 @@
+{
+  "answers": {
+    "request001": {
+      "result": "false"
+    },
+    "request002": {
+      "result": "false"
+    },
+    "request003": {
+      "result": "false"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindPython3.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+G:/qt c++/untitled/build/_deps/googletest-src/googletest/CMakeLists.txt
+G:/qt c++/untitled/build/_deps/googletest-src/googletest/cmake/Config.cmake.in
+G:/qt c++/untitled/build/_deps/googletest-src/googletest/cmake/gtest.pc.in
+G:/qt c++/untitled/build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in
+G:/qt c++/untitled/build/_deps/googletest-src/googletest/cmake/internal_utils.cmake

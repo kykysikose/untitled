@@ -1,0 +1,148 @@
+Start testing: Dec 28 20:46 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/5 Testing: TestCaseInvertedIndex.TestBasic
+1/5 Test: TestCaseInvertedIndex.TestBasic
+Command: "G:/qt c++/untitled/build/Debug/search_engine_tests.exe" "--gtest_filter=TestCaseInvertedIndex.TestBasic" "--gtest_also_run_disabled_tests"
+Directory: G:/qt c++/untitled/build
+"TestCaseInvertedIndex.TestBasic" start time: Dec 28 20:46 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from G:\qt c++\untitled\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TestCaseInvertedIndex.TestBasic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestCaseInvertedIndex
+[ RUN      ] TestCaseInvertedIndex.TestBasic
+[       OK ] TestCaseInvertedIndex.TestBasic (2 ms)
+[----------] 1 test from TestCaseInvertedIndex (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"TestCaseInvertedIndex.TestBasic" end time: Dec 28 20:46 RTZ 2 (çèìà)
+"TestCaseInvertedIndex.TestBasic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: TestCaseInvertedIndex.TestBasic2
+2/5 Test: TestCaseInvertedIndex.TestBasic2
+Command: "G:/qt c++/untitled/build/Debug/search_engine_tests.exe" "--gtest_filter=TestCaseInvertedIndex.TestBasic2" "--gtest_also_run_disabled_tests"
+Directory: G:/qt c++/untitled/build
+"TestCaseInvertedIndex.TestBasic2" start time: Dec 28 20:46 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from G:\qt c++\untitled\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TestCaseInvertedIndex.TestBasic2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestCaseInvertedIndex
+[ RUN      ] TestCaseInvertedIndex.TestBasic2
+[       OK ] TestCaseInvertedIndex.TestBasic2 (2 ms)
+[----------] 1 test from TestCaseInvertedIndex (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TestCaseInvertedIndex.TestBasic2" end time: Dec 28 20:46 RTZ 2 (çèìà)
+"TestCaseInvertedIndex.TestBasic2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: TestCaseInvertedIndex.TestInvertedIndexMissingWord
+3/5 Test: TestCaseInvertedIndex.TestInvertedIndexMissingWord
+Command: "G:/qt c++/untitled/build/Debug/search_engine_tests.exe" "--gtest_filter=TestCaseInvertedIndex.TestInvertedIndexMissingWord" "--gtest_also_run_disabled_tests"
+Directory: G:/qt c++/untitled/build
+"TestCaseInvertedIndex.TestInvertedIndexMissingWord" start time: Dec 28 20:46 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from G:\qt c++\untitled\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TestCaseInvertedIndex.TestInvertedIndexMissingWord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestCaseInvertedIndex
+[ RUN      ] TestCaseInvertedIndex.TestInvertedIndexMissingWord
+[       OK ] TestCaseInvertedIndex.TestInvertedIndexMissingWord (1 ms)
+[----------] 1 test from TestCaseInvertedIndex (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"TestCaseInvertedIndex.TestInvertedIndexMissingWord" end time: Dec 28 20:46 RTZ 2 (çèìà)
+"TestCaseInvertedIndex.TestInvertedIndexMissingWord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: TestCaseSearchServer.TestSimple
+4/5 Test: TestCaseSearchServer.TestSimple
+Command: "G:/qt c++/untitled/build/Debug/search_engine_tests.exe" "--gtest_filter=TestCaseSearchServer.TestSimple" "--gtest_also_run_disabled_tests"
+Directory: G:/qt c++/untitled/build
+"TestCaseSearchServer.TestSimple" start time: Dec 28 20:46 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from G:\qt c++\untitled\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TestCaseSearchServer.TestSimple
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestCaseSearchServer
+[ RUN      ] TestCaseSearchServer.TestSimple
+[       OK ] TestCaseSearchServer.TestSimple (4 ms)
+[----------] 1 test from TestCaseSearchServer (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TestCaseSearchServer.TestSimple" end time: Dec 28 20:46 RTZ 2 (çèìà)
+"TestCaseSearchServer.TestSimple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: TestCaseSearchServer.TestTop5
+5/5 Test: TestCaseSearchServer.TestTop5
+Command: "G:/qt c++/untitled/build/Debug/search_engine_tests.exe" "--gtest_filter=TestCaseSearchServer.TestTop5" "--gtest_also_run_disabled_tests"
+Directory: G:/qt c++/untitled/build
+"TestCaseSearchServer.TestTop5" start time: Dec 28 20:46 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from G:\qt c++\untitled\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TestCaseSearchServer.TestTop5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestCaseSearchServer
+[ RUN      ] TestCaseSearchServer.TestTop5
+G:\qt c++\untitled\tests\test_search_server.cpp(84): error: Expected equality of these values:
+  result
+    Which is: { { 16-byte object <07-00 00-00 00-00 00-00 00-00 80-3F CC-CC CC-CC> } }
+  expected
+    Which is: { { 16-byte object <07-00 00-00 00-00 00-00 00-00 80-3F CC-CC CC-CC>, 16-byte object <0E-00 00-00 00-00 00-00 00-00 80-3F CC-CC CC-CC>, 16-byte object <00-00 00-00 00-00 00-00 AB-AA 2A-3F CC-CC CC-CC>, 16-byte object <01-00 00-00 00-00 00-00 AB-AA 2A-3F CC-CC CC-CC>, 16-byte object <02-00 00-00 00-00 00-00 AB-AA 2A-3F CC-CC CC-CC> } }
+
+[  FAILED  ] TestCaseSearchServer.TestTop5 (6 ms)
+[----------] 1 test from TestCaseSearchServer (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestCaseSearchServer.TestTop5
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"TestCaseSearchServer.TestTop5" end time: Dec 28 20:46 RTZ 2 (çèìà)
+"TestCaseSearchServer.TestTop5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 28 20:46 RTZ 2 (çèìà)

@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeDependentOption.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Compiler/MSVC-C.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Compiler/MSVC.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Linker/MSVC-C.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Linker/MSVC.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-C.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake
+D:/ToolsVscode/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
+G:/qt c++/untitled/build/CMakeFiles/4.2.0-rc1/CMakeCCompiler.cmake
+G:/qt c++/untitled/build/_deps/googletest-src/CMakeLists.txt
